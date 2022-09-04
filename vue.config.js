@@ -6,7 +6,7 @@ module.exports = {
     },
     pluginOptions: {
       sitemap: {
-          baseURL: 'https://voyagee-newstravel.herokuapp.com',
+          baseURL: 'https://voyagee-news.vercel.app',
           routes,
       }
   }
