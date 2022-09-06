@@ -3,7 +3,7 @@
     <v-app id="inspire">
       <div class="container" style="margin-top: 20px">
         <div class="carousel">
-          <v-carousel hide-delimiters>
+          <v-carousel cycle hide-delimiters>
             <v-carousel-item
               :class="{ active: index == currentIndex }"
               v-for="(thisNews, index) in news.slice(0, 5)"
